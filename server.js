@@ -14,7 +14,7 @@ app.use(
 app.use(bodyParser.json());
 
 const SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbxRMlMjgllhNyFtd8SOyDprIXjAsLc2Vr26UGwf9yMi34XTjiIHf49LEkbAWXX8Xuz0Gg/exec";
+  "https://script.google.com/macros/s/AKfycbw2lfieNmtdVEJmzgH1U4Tp5mG9KHf1cAP1TyIud0o381SWAFzpkRKhrnoH86xgDVcG/exec";
 
 app.post("/submit", async (req, res) => {
   try {
